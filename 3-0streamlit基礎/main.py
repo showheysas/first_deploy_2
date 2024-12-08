@@ -6,9 +6,9 @@ st.title("streamlitの基礎") # タイトルが出力される
 st.write("hello world") # hello worldが出力される
 st.write('画像の表示') #画像の表示
 
-img = Image.open('pic/main_img_202108.jpeg') # 画像の読み込み
+#img = Image.open('pic/main_img_202108.jpeg') # 画像の読み込み
 #st.image(img, caption='main_img_202108', use_column_width=True) # 
-st.image(img, caption='main_img_202108', use_container_width=True) # 
+#st.image(img, caption='main_img_202108', use_container_width=True) # 
 
 # レイアウトとして２列を定義
 col1, col2 = st.columns(2)
